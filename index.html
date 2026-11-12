@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tank: know exactly what to eat on the bike</title>
+  <meta name="description" content="Tank plans your carbs, fluid and sodium for every ride, times your food around the climbs, and nudges you on the bike. For cyclists on road, gravel and MTB.">
+  <link rel="icon" href="img/favicon.png">
+  <link rel="apple-touch-icon" href="img/icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=DM+Sans:opsz,wght@9..40,400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=3">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="topo" viewBox="0 0 390 300" preserveAspectRatio="xMidYMid slice">
+      <path d="M-20 240 C 60 200, 90 290, 170 230 S 300 120, 410 170"/>
+      <path d="M-20 226 C 60 182, 90 260, 170 210 S 300 108, 410 148"/>
+      <path d="M-20 212 C 60 164, 90 230, 170 190 S 300 96, 410 126"/>
+      <path d="M-20 198 C 60 146, 90 200, 170 170 S 300 84, 410 104"/>
+      <path d="M-20 184 C 60 128, 90 170, 170 150 S 300 72, 410 82"/>
+      <path d="M-20 170 C 60 110, 90 140, 170 130 S 300 60, 410 60"/>
+      <path d="M-20 156 C 60 92, 90 110, 170 110 S 300 48, 410 38"/>
+      <ellipse cx="300" cy="70" rx="22" ry="12" transform="rotate(-18 300 70)"/>
+      <ellipse cx="300" cy="70" rx="42" ry="24" transform="rotate(-18 300 70)"/>
+      <ellipse cx="300" cy="70" rx="62" ry="36" transform="rotate(-18 300 70)"/>
+      <ellipse cx="300" cy="70" rx="82" ry="48" transform="rotate(-18 300 70)"/>
+    </symbol>
+  </defs>
+</svg>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="img/icon.png" alt="">Tank</a>
+    <ul>
+      <li class="hide-sm"><a href="#features">Features</a></li>
+      <li class="hide-sm"><a href="#science">The science</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="support.html">Support</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="topo"><svg><use href="#topo"/></svg></div>
+    <div class="wrap">
+      <div class="reveal">
+        <div class="eyebrow">Fuel planner for cyclists · road, gravel and MTB</div>
+        <h1>Know exactly what to eat and when, <em>in 30 seconds.</em></h1>
+        <p class="lede">Tank works out your carbs, fluid and sodium for the ride you’re actually doing, times your food around the climbs, and nudges you on the bike. Even with your phone in your back pocket.</p>
+        <a class="btn" href="#pricing">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.37 12.6c-.02-2.27 1.86-3.36 1.94-3.41-1.06-1.55-2.71-1.76-3.29-1.78-1.4-.14-2.73.82-3.44.82-.71 0-1.8-.8-2.96-.78-1.52.02-2.93.89-3.71 2.25-1.59 2.75-.41 6.81 1.13 9.04.76 1.09 1.66 2.31 2.84 2.27 1.14-.05 1.57-.74 2.95-.74 1.38 0 1.76.74 2.96.71 1.23-.02 2-1.11 2.74-2.21.87-1.26 1.22-2.49 1.24-2.55-.03-.01-2.37-.91-2.4-3.62zM14.12 5.94c.63-.76 1.05-1.82.93-2.88-.9.04-2 .6-2.65 1.36-.58.67-1.09 1.75-.95 2.79 1.01.08 2.04-.51 2.67-1.27z"/></svg>
+          Coming soon to the App Store
+        </a>
+        <p class="small">Free to download. iPhone, iOS 26 and later.</p>
+        <div class="chips">
+          <span class="chip">No account</span>
+          <span class="chip">Your data stays on your iPhone</span>
+          <span class="chip">Built on published sports science</span>
+        </div>
+      </div>
+      <div class="phones reveal">
+        <div class="phone back"><img src="img/route.jpg" alt="Tank’s route screen: a 24 km road ride near Sheffield with two climbs, 391 m of climbing, 1h 30 estimated"></div>
+        <div class="phone front"><img src="img/plan.jpg" alt="Tank’s fuel plan: 60 g carbs per hour, 700 ml fluid, 400 mg sodium"></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap macros reveal">
+    <div class="macro"><div class="label c-carbs">Carbs</div><div class="num c-carbs">60<span class="unit">g/h</span></div><p>Set by how long and hard you ride, and what your gut can take.</p></div>
+    <div class="macro"><div class="label c-fluid">Fluid</div><div class="num c-fluid">500<span class="unit">ml/h</span></div><p>Sized to your weight and the weather, never more than you sweat.</p></div>
+    <div class="macro"><div class="label c-sodium">Sodium</div><div class="num c-sodium">300<span class="unit">mg/h</span></div><p>Follows what you drink, with more for salty sweaters.</p></div>
+  </div>
+
+  <section class="band" id="features">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">Built for every ride</div>
+        <h2>From “what should I eat?” to a plan you can ride</h2>
+        <p>Pick your ride, or drop in the route. Tank does the maths, packs your bag and keeps you on schedule.</p>
+      </div>
+
+      <div class="feature reveal">
+        <div class="text">
+          <div class="eyebrow">The plan</div>
+          <h3>Your numbers, with the reason</h3>
+          <p>Tell Tank how long, how hard and how hot. Your weight, gut and how salty you sweat do the rest. Every number comes with a one-line reason, so you know why it’s 60 and not 90.</p>
+          <ul>
+            <li>Carbs, fluid and sodium per hour, and for the whole ride</li>
+            <li>A carb-based meal to eat before you start</li>
+            <li>Comfortable limits while your gut is still learning</li>
+          </ul>
+        </div>
+        <div class="shot"><div class="glow" style="background:var(--carbs)"></div><div class="phone"><img src="img/plan.jpg" alt="Plan screen" loading="lazy"></div></div>
+      </div>
+
+      <div class="feature flip reveal">
+        <div class="text">
+          <div class="eyebrow">Your route</div>
+          <h3>Drop in a GPX. We’ll find the climbs.</h3>
+          <p>Share a route from Strava, Komoot, Ride with GPS or Garmin. Tank smooths out GPS noise, finds the real climbs and estimates your time from your own pace.</p>
+          <ul>
+            <li>Road, mixed, gravel or MTB: each changes your time and your fuel</li>
+            <li>Mark café stops and check your bottles cover every leg</li>
+            <li>Learns your real speed after every ride</li>
+          </ul>
+        </div>
+        <div class="shot"><div class="glow" style="background:var(--accent)"></div><div class="phone"><img src="img/route.jpg" alt="Route screen with map and elevation" loading="lazy"></div></div>
+      </div>
+
+      <div class="feature reveal">
+        <div class="text">
+          <div class="eyebrow">The timeline</div>
+          <h3>Food moved to just before the climb</h3>
+          <p>Every gel, bar, bottle and refill on the clock and on the map. Nothing to eat on the first part of a climb; drink as normal.</p>
+          <ul>
+            <li>km markers on every item, to match your bike computer</li>
+            <li>A pack list built from the products you actually use</li>
+            <li>A plan check: every total within 5% of target</li>
+          </ul>
+        </div>
+        <div class="shot"><div class="glow" style="background:var(--fluid)"></div><div class="phone"><img src="img/timeline.jpg" alt="Timeline with timed food and a climb" loading="lazy"></div></div>
+      </div>
+
+      <div class="feature flip reveal">
+        <div class="text">
+          <div class="eyebrow">On the bike</div>
+          <h3>Nudges that reach you, phone locked</h3>
+          <p>A countdown you can read at a glance, and big Done and Skip buttons. Tap Done right from the lock screen or your watch.</p>
+          <ul>
+            <li>A reminder to drink every 20 minutes, sized to what you need</li>
+            <li>Ate early? The rest of the plan moves with you</li>
+            <li>Running behind? One tap shifts what’s left</li>
+            <li>Eaten so far vs due by now, at a glance</li>
+          </ul>
+        </div>
+        <div class="shot"><div class="glow" style="background:var(--accent)"></div><div class="phone"><img src="img/inride.jpg" alt="In-ride countdown with Done and Skip" loading="lazy"></div></div>
+      </div>
+
+      <div class="feature reveal">
+        <div class="text">
+          <div class="eyebrow">Your fuel</div>
+          <h3>Plans built from your packets</h3>
+          <p>Add the gels, bars, chews and drink mixes you ride with, straight from the label. Sweets by the bag? Enter them per 100 g. Switch things off for today and the plan adapts.</p>
+          <div class="quote">“Gummy bears (25 g): 19 g carbs per serving.”</div>
+        </div>
+        <div class="shot"><div class="glow" style="background:var(--sodium)"></div><div class="phone"><img src="img/fuel.jpg" alt="My fuel product library" loading="lazy"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band alt" id="science">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">Grounded, not guessed</div>
+        <h2>Built on published sports-nutrition guidance</h2>
+        <p>Every number in Tank traces back to research, and gets smarter with every ride you log.</p>
+      </div>
+      <div class="cards">
+        <div class="card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21V8"/><path d="M12 8c-3 0-4.5-2-4.5-4.5C10 3.5 12 5 12 8Z"/><path d="M12 8c3 0 4.5-2 4.5-4.5C14 3.5 12 5 12 8Z"/><path d="M12 14c-3 0-4.5-2-4.5-4.5C10 9.5 12 11 12 14Z"/><path d="M12 14c3 0 4.5-2 4.5-4.5C14 9.5 12 11 12 14Z"/></svg></div>
+          <h3>Carbs by duration</h3>
+          <p>About 30 g an hour for 1–2 hours, up to 90 on long days. Limited by your gut, not your weight.</p>
+          <div class="src">Jeukendrup 2014 · ACSM 2016</div>
+        </div>
+        <div class="card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s6 6.2 6 11a6 6 0 0 1-12 0c0-4.8 6-11 6-11Z"/></svg></div>
+          <h3>Fluid from your sweat</h3>
+          <p>Bigger riders and hotter days need more. Tank keeps you within about 2% of your body weight, and never plans more than you sweat.</p>
+          <div class="src">ACSM 2007 · Baker 2016</div>
+        </div>
+        <div class="card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></div>
+          <h3>Learns from your rides</h3>
+          <p>A quick check-in after each ride tunes your carbs and your speed. Bonked, bloated, flying? The next plan knows.</p>
+          <div class="src">Gut training: Jeukendrup 2017</div>
+        </div>
+      </div>
+      <p class="small reveal" style="text-align:center;margin-top:30px">Tank isn’t medical advice. If you have a medical condition, check with a professional.</p>
+    </div>
+  </section>
+
+  <section class="band" id="route">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">Tank Pro · route intelligence</div>
+        <h2>Reads your route like a rider</h2>
+        <p>Drop in a GPX from Komoot, Strava or Ride with GPS. Tank works out where the ride gets hard, and plans your fuel around it.</p>
+      </div>
+      <div class="cards four">
+        <div class="card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 19 6-11 4 7 3-5 5 9H3Z"/></svg></div>
+          <h3>Finds every climb</h3>
+          <p>Long drags and short, steep kicks, even when a flat stretch splits them up.</p>
+        </div>
+        <div class="card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2 2M10 2h4"/></svg></div>
+          <h3>Times it from the gradients</h3>
+          <p>Slower up, faster down, tuned to your own speed. Your ride time sets how much you need.</p>
+        </div>
+        <div class="card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3h8l-1 4H9L8 3Z"/><path d="M9 7h6l1 12a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2L9 7Z"/></svg></div>
+          <h3>Food off the climbs</h3>
+          <p>Nothing to eat when you’re gasping: gels move to just before or after, while drinks stay where they are.</p>
+        </div>
+        <div class="card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c2 4 6 6 6 11a6 6 0 0 1-12 0c0-3 2-5 3-7 1 2 3 3 3 5"/></svg></div>
+          <h3>Hilly means harder</h3>
+          <p>A lumpy route plans more carbs than a flat one at the same pace, because the climbs burn through them faster.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="pricing">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">Pricing</div>
+        <h2>Free to plan. Pro knows the road.</h2>
+        <p>Everything you need to start is free. Go Pro when Tank becomes part of your riding.</p>
+      </div>
+      <div class="pricing">
+        <div class="price reveal">
+          <h3>Free</h3>
+          <div class="sub">Yours to keep</div>
+          <ul>
+            <li>Quick plans for any ride</li>
+            <li>The full timeline and pack list</li>
+            <li>Your own fuel library</li>
+            <li>Your first route plan</li>
+            <li>Your first ride with nudges</li>
+          </ul>
+        </div>
+        <div class="price pro reveal">
+          <div class="topo"><svg><use href="#topo"/></svg></div>
+          <span class="badge">7 DAYS FREE</span>
+          <h3>Tank Pro</h3>
+          <div class="sub">Everything free, plus</div>
+          <ul>
+            <li>Route intelligence: every climb, gradient timing, food off the climbs</li>
+            <li>Eat and drink nudges on every ride, phone locked</li>
+            <li>Countdown on your lock screen and Apple Watch</li>
+            <li>Plans that learn your carbs and speed</li>
+            <li>Saved plans for your regular rides</li>
+          </ul>
+          <div class="amounts">
+            <div class="num">£29.99<span class="unit"> /year</span></div>
+            <p>or £4.99 a month. UK prices. Cancel any time in Settings.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="topo"><svg><use href="#topo"/></svg></div>
+    <div class="wrap reveal">
+      <h2>Don’t ride on empty.</h2>
+      <p>Your next ride, fuelled properly.</p>
+      <a class="btn" href="#pricing">Coming soon to the App Store</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>Tank · Made in the UK</div>
+    <nav>
+      <a href="privacy.html">Privacy</a>
+      <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms</a>
+      <a href="support.html">Support</a>
+      <a href="mailto:support.tank@icloud.com">support.tank@icloud.com</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+</script>
+</body>
+</html>
